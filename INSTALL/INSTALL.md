@@ -118,14 +118,12 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
     ![Alt text](image-22.png)
 
 ## 動作確認
-1. Open AIの有償版のAPI Keyが必要になります。
-Open AIのBillingのページでクレジットカードの登録が必要になります。
+1. Open AIの有償版のAPI Keyを利用するには、Billingのページでクレジットカードの登録が必要になります。代表者がクレジットカードを登録し、メンバー登録すれば複数人でのAPI Keyの利用も可能です。
     https://platform.openai.com/account/billing/overview
     ![Alt text](image-29.png)
     ![Alt text](image-30.png)
     ![Alt text](image-31.png)
     ![Alt text](image-26.png)
-
 
 1. ChatGPTの有償版のAPI keysのページにアクセスし、「
 Create new secret key」を押下します。
