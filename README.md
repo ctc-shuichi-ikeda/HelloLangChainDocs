@@ -5,18 +5,10 @@
 ![Alt text](image-1.png)
 
 ## 開発環境構成図
+CTCのセキュアPCにLangChainの開発環境を構築します。
 ![Alt text](image.png)
 
 ## 開発環境構築手順
-CTCのセキュアPCにLangChainの開発環境を構築する手順を下記に示します。
-
-- git for windows最新版
-- Visual Studio Code最新版
-- Python 3.10
-- LangChain最新版
-- Vector DB最新版
-- ChatGPT有償版
-
 構築手順は[こちら](INSTALL/INSTALL.md)です。
 
 ## 参考
