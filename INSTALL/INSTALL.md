@@ -85,7 +85,9 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
 
     ![Alt text](image-7.png)
 
-1. Gitリポジトリをクローンします。
+
+## HelloLangChainDemoのクローン
+1. HelloLangChainDemoのGitリポジトリをクローンします。
     ```
     git clone https://github.com/ctc-shuichi-ikeda/HelloLangChainDemo.git
     ```
