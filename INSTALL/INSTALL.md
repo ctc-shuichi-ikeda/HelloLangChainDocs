@@ -6,7 +6,7 @@ CTCのセキュアPCにLangChainの開発環境を構築する手順を下記に
 ## Windows subsystem for linux2のインストール
 
 1. PowerShellを管理者権限で開きます。
-![Alt text](image.png)
+    ![Alt text](image.png)
 
 1. WSLを有効化するために、以下のコマンドを実行します。
     ```
@@ -130,13 +130,14 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
 ## ChatGPT有償版
 1. ChatGPTの有償版のAPI keysのページにアクセスし、「
 Create new secret key」を押下します。
-https://platform.openai.com/account/api-keys
+    https://platform.openai.com/account/api-keys
     ![Alt text](image-16.png)
 
 1. Create new secret keyに名前を付与します。
     ![Alt text](image-17.png)
 
 1. new secret keyをコピーします。
+
     ![Alt text](image-18.png)
 
 1. ソースコードのos.environ['OPENAI_API_KEY']に値をセットします。
