@@ -7,7 +7,7 @@ Visual Studio Code上でデモを実行します。
 
 ## デモのアーキテクチャ
 デモのアーキクチャを下図に示します。社内ファイルは各種Loaderにより読み込まれOpenAI Embeddingsで文書をベクトルに変換し、ベクトルDBであるChromadbに格納されます。
-利用者からの質問に対して、Retrival QAがベクトルDBにある情報の検索し、その結果をOpen AIに渡します。Open AIは文書を生成し、利用者に回答します。
+利用者からの質問に対して、RetrievalQAがベクトルDBにある情報の検索し、その結果をOpen AIに渡します。Open AIは文書を生成し、利用者に回答します。
 ただし、これは現時点での想定であり、これから実際の動作を確認していきます。
 ![Alt text](image-3.png)
 
