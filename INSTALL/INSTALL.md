@@ -162,7 +162,7 @@ Create new secret key」を押下します。
     ```
     ![Alt text](image-35.png)
 
-1. HelloTextQAのファイルを選択肢、「F5」を押下し、「Pythonファイル 現在アクティブなPythonファイルをデバッグする」を選択します。
+1. HelloTextQAのファイルを選択後「F5」を押下し、「Pythonファイル 現在アクティブなPythonファイルをデバッグする」を選択します。
     ![Alt text](image-36.png)
 
 1. 下記の画面が出力されます。
