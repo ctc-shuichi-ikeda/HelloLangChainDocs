@@ -4,6 +4,11 @@
 テキスト、PDF、PPT等の社内ファイルを学習させて、質問に答えるシナリオとなります。
 ![Alt text](image-1.png)
 
+## デモ画面
+Visual Studio Code上でデモを実行します。
+![Alt text](image-2.png)
+
+
 ## 開発環境構成図
 CTCのセキュアPCにLangChainの開発環境を構築します。
 ![Alt text](image.png)
