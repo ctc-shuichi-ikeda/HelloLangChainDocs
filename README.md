@@ -12,6 +12,7 @@ Visual Studio Code上でデモを実行します。
 
 ## 開発環境構成図
 CTCのセキュアPCにLangChainの開発環境を構築します。
+LangChainはPythonライブラリと提供されています。公開情報の手順がLinux環境を前提しているため、Windows上にLinux環境を準備しています。Visual Studio Codeにより、Windows上からシームレスにLinuxを操作することできます。
 ![Alt text](image.png)
 
 ## 開発環境構築手順
