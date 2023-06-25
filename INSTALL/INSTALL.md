@@ -136,3 +136,7 @@ Create new secret key」を押下します。
 1. 「F5」を押下し、「Pythonファイル 現在アクティブなPythonファイルをデバッグする」を選択します。
     ![Alt text](image-23.png)
 
+1. 下記の画面が出力されます。
+    ![Alt text](image-25.png)
+
+以上
