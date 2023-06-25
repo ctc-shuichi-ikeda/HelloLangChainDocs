@@ -87,16 +87,16 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
 
 1. Gitリポジトリをクローンします。
     ```
-    git clone https://github.com/ctc-shuichi-ikeda/HelloLangChain.git
+    git clone https://github.com/ctc-shuichi-ikeda/HelloLangChainDemo.git
     ```
     ![Alt text](image-21.png)
 
 1. クローンしたGitリポジトリのフォルダをVSCodeで開きます。
     ```
-    cd HelloLangChain
+    cd HelloLangChainDemo
     code -r .
     ```
-    ![Alt text](image-12.png)
+    ![Alt text](image-32.png)
 
 ## 必要なライブラリの最新版のインストール
 1. Pythonの仮想環境を作成します。
@@ -111,11 +111,17 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
     ```
     ![Alt text](image-13.png)
     
-1. 必要なライブラリであるlangChain、openai、chromadb、titokenの最新版をインストールします。
+1. 必要なライブラリであるlangChain、openai、chromadb、titoken、pypdfの最新版をインストールします。
     ```
     pip3 install -r requirements.txt
     ```
     ![Alt text](image-22.png)
+
+1. PPTXファイルに必要なライブラリであるunstructuredの最新版を別途インストールします。
+    ```
+    pip3 install unstructured
+    ```
+    ![Alt text](image-33.png)
 
 ## 動作確認
 1. Open AIの有償版のAPI Keyを利用するには、Billingのページでクレジットカードの登録が必要になります。代表者がクレジットカードを登録し、メンバー登録すれば複数人でのAPI Keyの利用も可能です。
@@ -137,13 +143,27 @@ Create new secret key」を押下します。
 
     ![Alt text](image-18.png)
 
-1. HelloQA.py等のソースコードのos.environ['OPENAI_API_KEY']に値をセットします。
-    ![Alt text](image-19.png)
+1. 環境変数の設定ファイルである.env.exampleを.envにコピーします。シークレットキーを変更します。
+    ```
+    cp .env.example .env
+    ```
+    ![Alt text](image-34.png)
 
-1. 「F5」を押下し、「Pythonファイル 現在アクティブなPythonファイルをデバッグする」を選択します。
-    ![Alt text](image-23.png)
+1. 環境変数の設定ファイルを読み込ませます。
+    ```
+    source .env
+    ```
+
+1. 環境変数OPENAI_API_KEYがセットされているかを確認します。
+    ```
+    echo $OPENAI_API_KEY
+    ```
+    ![Alt text](image-35.png)
+
+1. HelloTextQAのファイルを選択肢、「F5」を押下し、「Pythonファイル 現在アクティブなPythonファイルをデバッグする」を選択します。
+    ![Alt text](image-36.png)
 
 1. 下記の画面が出力されます。
-    ![Alt text](image-25.png)
+    ![Alt text](image-37.png)
 
 以上
