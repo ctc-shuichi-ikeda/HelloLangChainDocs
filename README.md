@@ -18,12 +18,11 @@ CTCのセキュアPCにLangChainの開発環境を構築する手順を下記に
 構築手順は[こちら](INSTALL/INSTALL.md)です。
 
 ## 参考
+Open AI Quickstart:
+https://platform.openai.com/docs/quickstart
 
-LangChain Github
+LangChain Github:
 https://github.com/hwchase17/langchain
 
-LangChain Getting Started
+LangChain Getting Started:
 https://python.langchain.com/en/latest/getting_started/getting_started.html
-
-Quickstart: Deploy a Python Flask web app to Azure App Service
-https://learn.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cvscode-aztools%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cterminal-bash%2Cdeploy-instructions-zip-azcli#1---sample-application

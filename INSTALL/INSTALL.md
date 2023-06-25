@@ -4,7 +4,6 @@
 CTCのセキュアPCにLangChainの開発環境を構築する手順を下記に示します。
 
 ## Windows subsystem for linux2のインストール
-
 1. PowerShellを管理者権限で開きます。
     ![Alt text](image.png)
 
@@ -14,11 +13,13 @@ CTCのセキュアPCにLangChainの開発環境を構築する手順を下記に
     ```
     ![Alt text](image-1.png)
 
-1. Ubuntuを初期化します。スタートメニューからUbuntuを起動します。
+1. Ubuntuを初期化するためにスタートメニューからUbuntuを起動します。
     ![Alt text](image-5.png)
 
-1. 初期バスワードを登録します。
+1. 初期ユーザとパスワードを登録します。
     ![Alt text](image-6.png)
+
+もしUbuntuでエラーが発生した場合は下記を確認してください。
 
 1. Windowsの左下の検索から「機能の有効化」を検索します。
     ![Alt text](image-3.png)
@@ -58,7 +59,6 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
 1. pipをインストールします。
     ```
     sudo apt install -y python3-pip
-    pip3 -V
     ```
 
 1. リポジトリを追加します。
@@ -118,6 +118,15 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
     ![Alt text](image-22.png)
 
 ## 動作確認
+1. Open AIの有償版のAPI Keyが必要になります。
+Open AIのBillingのページでクレジットカードの登録が必要になります。
+    https://platform.openai.com/account/billing/overview
+    ![Alt text](image-29.png)
+    ![Alt text](image-30.png)
+    ![Alt text](image-31.png)
+    ![Alt text](image-26.png)
+
+
 1. ChatGPTの有償版のAPI keysのページにアクセスし、「
 Create new secret key」を押下します。
     https://platform.openai.com/account/api-keys
