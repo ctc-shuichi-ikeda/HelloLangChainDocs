@@ -99,9 +99,14 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
     ![Alt text](image-12.png)
 
 ## 必要なライブラリの最新版のインストール
-1. Pythonの仮想環境を作成し、有効化します。
+1. Pythonの仮想環境を作成します。
     ```
     python3 -m venv venv
+    ```
+    ![Alt text](image-24.png)
+
+1. Pythonの仮想環境を有効化します。
+    ```
     . venv/bin/activate
     ```
     ![Alt text](image-13.png)
@@ -110,9 +115,9 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
     ```
     pip3 install -r requirements.txt
     ```
-    ![Alt text](image-14.png)
+    ![Alt text](image-22.png)
 
-## ChatGPT有償版
+## 動作確認
 1. ChatGPTの有償版のAPI keysのページにアクセスし、「
 Create new secret key」を押下します。
     https://platform.openai.com/account/api-keys
@@ -125,8 +130,9 @@ Create new secret key」を押下します。
 
     ![Alt text](image-18.png)
 
-1. ソースコードのos.environ['OPENAI_API_KEY']に値をセットします。
+1. HelloQA.py等のソースコードのos.environ['OPENAI_API_KEY']に値をセットします。
     ![Alt text](image-19.png)
 
+1. 「F5」を押下し、「Pythonファイル 現在アクティブなPythonファイルをデバッグする」を選択します。
+    ![Alt text](image-23.png)
 
-## 動作確認
