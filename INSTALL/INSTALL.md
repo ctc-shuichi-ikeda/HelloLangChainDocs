@@ -89,7 +89,7 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
     ```
     git clone https://github.com/ctc-shuichi-ikeda/HelloLangChain.git
     ```
-    ![Alt text](image-11.png)
+    ![Alt text](image-21.png)
 
 1. クローンしたGitリポジトリのフォルダをVSCodeで開きます。
     ```
