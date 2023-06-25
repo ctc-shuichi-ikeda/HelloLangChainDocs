@@ -98,7 +98,7 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
     ```
     ![Alt text](image-12.png)
 
-## LangChain最新版
+## 必要なライブラリの最新版のインストール
 1. Pythonの仮想環境を作成し、有効化します。
     ```
     python3 -m venv venv
@@ -106,26 +106,11 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
     ```
     ![Alt text](image-13.png)
     
-1. LangChainに必要なライブラリをインストールします。
+1. 必要なライブラリであるlangChain、openai、chromadb、titokenの最新版をインストールします。
     ```
     pip3 install -r requirements.txt
     ```
     ![Alt text](image-14.png)
-
-参考：https://github.com/hwchase17/langchain
-
-## ベクトルDB最新版
-1. LangChainに必要なベクトルデータベースであるChromaDBをインストールします。
-    ```
-    pip3 install chromadb
-    ```
-    ![Alt text](image-15.png)
-
-1. OpenAIのトーカナイザーtitokenをインストールします。
-    ```
-    pip3 install tiktoken
-    ```
-    ![Alt text](image-20.png)
 
 ## ChatGPT有償版
 1. ChatGPTの有償版のAPI keysのページにアクセスし、「
