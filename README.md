@@ -2,12 +2,13 @@
 
 ## デモの概要
 テキスト、PDF、PPT等の社内ファイルを学習させて、質問に答えるシナリオとなります。
-![Alt text](image-1.png)
-
-## デモ画面
 Visual Studio Code上でデモを実行します。
 ![Alt text](image-2.png)
 
+## デモのアーキテクチャ
+デモのアーキクチャを下図に示します。社内ファイルは各種Loaderにより読み込まれOpenAI Embeddingsで文書をベクトルに変換し、ベクトルDBであるChromadbに格納されます。
+利用者からの質問に対して、RetriveQAがベクトルDBにある情報の検索結果をOpen AIが文書を生成し、利用者に回答していると想定しています。
+![Alt text](image-3.png)
 
 ## 開発環境構成図
 CTCのセキュアPCにLangChainの開発環境を構築します。
