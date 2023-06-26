@@ -45,6 +45,10 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
     https://azure.microsoft.com/ja-jp/products/visual-studio-code
     ![Alt text](image-8.png)
 
+1. 日本語の拡張機能をインストールします。
+
+1. WSLの拡張機能をインストールします。
+
 1. WSLに接続します。
     ![Alt text](image-9.png)
 
@@ -69,7 +73,7 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
     sudo add-apt-repository ppa:deadsnakes/ppa
     ```
 
-1. Python3.10をインストールします。venvで仮想環境を分けるため、python.3.10もインストールしています。
+1. Python3.10をインストールします。venvで仮想環境を分けるため、python.3.10-venvもインストールしています。
     ```
     sudo apt install -y python3.10 python3.10-venv
     ```
