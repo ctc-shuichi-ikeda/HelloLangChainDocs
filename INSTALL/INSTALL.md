@@ -13,6 +13,8 @@ CTCのセキュアPCにLangChainの開発環境を構築する手順を下記に
     ```
     ![Alt text](image-1.png)
 
+1. Windows OSの再起動を行います。
+
 1. Ubuntuを初期化するためにスタートメニューからUbuntuを起動します。
     ![Alt text](image-5.png)
 
