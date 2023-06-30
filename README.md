@@ -19,6 +19,9 @@ LangChainはPythonライブラリと提供されています。公開情報の�
 ## 開発環境構築手順
 構築手順は[こちら](INSTALL/INSTALL.md)です。
 
+## 開発環境を更に便利に
+1. GitHub Copilotの構築手順は[こちら](INSTALL/GitHubCopilot/GitHubCopilotINSTALL.md)です。
+
 ## 参考
 Open AI Quickstart:
 https://platform.openai.com/docs/quickstart
