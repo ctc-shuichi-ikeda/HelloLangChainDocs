@@ -46,8 +46,13 @@ https://learn.microsoft.com/ja-jp/windows/wsl/install
     ![Alt text](image-8.png)
 
 1. 日本語の拡張機能をインストールします。
+    ![Alt text](image-38.png)
 
 1. WSLの拡張機能をインストールします。
+    ![Alt text](image-39.png)
+
+1. Pythonの拡張機能をインストールします。
+    ![Alt text](image-40.png)
 
 1. WSLに接続します。
     ![Alt text](image-9.png)
