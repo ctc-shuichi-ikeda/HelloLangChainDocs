@@ -14,12 +14,12 @@ Visual Studio Code上でデモを実行します。
 ## 開発環境構成図
 CTCのセキュアPCにLangChainの開発環境を構築します。
 LangChainはPythonライブラリと提供されています。公開情報の手順がLinux環境を前提しているため、Windows上にLinux環境を準備しています。Visual Studio Codeにより、Windows上からシームレスにLinuxを操作することできます。Azureデモ実行環境についてはこれからデプロイ手順を調査・確立していきます。
-![Alt text](image.png)
+![Alt text](image-4.png)
 
 ## 開発環境構築手順
 構築手順は[こちら](INSTALL/INSTALL.md)です。
 
-## 開発環境を更に便利に
+## 開発環境の拡張
 1. GitHub Copilotの構築手順は[こちら](INSTALL/GitHubCopilot/GitHubCopilotINSTALL.md)です。
 
 ## 参考
