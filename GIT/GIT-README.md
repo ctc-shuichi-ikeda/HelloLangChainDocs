@@ -14,6 +14,13 @@
 1. GitHubのプロファイルを適宜編集します。
     ![Alt text](image-3.png)
 
+1. Gitコマンドユーザー名と電子メールを設定します。
+    ```
+    git config --global user.name 'CTC/Shuichi Ikeda'
+    git config --global user.emai 'shuichi.ikeda@ctc-g.co.jp'
+    ```
+    ![Alt text](image-23.png)
+
 ## 新しいリポジトリの作成
 
 1. GitHubで新しいリポジトリを作成します。
@@ -28,28 +35,40 @@
 
 1. GitリポジトリのURLをコピーします。
     ![Alt text](image-15.png)
+    もし上記の画面が表示されなくなった場合は、下記の画面からもURLがコピーできます。
+    ![Alt text](image-24.png)
 
 1. VSCodeでリポジトリにPUSHしたいフォルダを開きます。
     ![Alt text](image-7.png)
 
-1. VSCodeのコマンドで、現在のリモートのURLを確認します。
+1. Gitコマンドで、現在のリモートのURLを確認します。
     ```
     git config remote.origin.url
     ```
     ![Alt text](image-16.png)
 
-1. VSCodeのコマンドで、コピーしたURLに変更します。
+1. Gitコマンドで、コピーしたURLに変更します。
     ```
     git remote set-url origin "コピーしたURL"
     ```
+    ![Alt text](image-19.png)
 
-1. VSCodeのコマンドで、変更後のリモートのURLを確認します。
+1. Gitコマンドで、変更後のリモートのURLを確認します。
     ```
     git config remote.origin.url
     ```
-    ![Alt text](image-16.png)
+    ![Alt text](image-20.png)
 
-1. VSCodeでコミットします。
+1. Gitコマンドで、ソースコードをPushします。
+    ```
+    git push
+    ```
+    ![Alt text](image-21.png)
+
+1. GitHubのリポジトリにソースコードがPushされていることを確認します。
+    ![Alt text](image-22.png)
+
+1. その後ファイルを編集した際は、VSCodeのソース管理からもコミットできます。
 
     ![Alt text](image-12.png)
 
@@ -57,5 +76,7 @@
 
     ![Alt text](image-13.png)
 
-1. GitHubのリポジトリにソースコードが公開されていることを確認します。
-    ![Alt text](image-17.png)
+1. GitHubのリポジトリにソースコードが変更されていることを確認します。
+    ![Alt text](image-22.png)
+
+
