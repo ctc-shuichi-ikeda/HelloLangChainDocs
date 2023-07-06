@@ -25,3 +25,32 @@
 
 1. こちらの画面が表示されればリポジトリの追加は成功です。
     ![Alt text](image-6.png)
+
+1. GitリポジトリのURLをコピーします。
+    ![Alt text](image-15.png)
+
+1. VSCodeでリポジトリにPUSHしたいフォルダを開きます。
+    ![Alt text](image-7.png)
+
+1. VSCodeのコマンドで、現在のリモートのURLを確認します。
+    ```
+    git config remote.origin.url
+    ```
+    ![Alt text](image-16.png)
+
+1. VSCodeのコマンドで、コピーしたURLに変更します。
+    ```
+    git remote set-url origin "コピーしたURL"
+    ```
+
+1. VSCodeのコマンドで、変更後のリモートのURLを確認します。
+    ```
+    git config remote.origin.url
+    ```
+    ![Alt text](image-16.png)
+
+1. VSCodeでコミットします。
+    ![Alt text](image-12.png)
+
+1. VSCodeで変更を同期します。
+    ![Alt text](image-13.png)
