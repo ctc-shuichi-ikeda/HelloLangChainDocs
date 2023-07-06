@@ -6,11 +6,10 @@
     ![Alt text](image.png)
 
 1. GitHubのアカウント、電子メールアドレス、パスワードを設定します。
-![Alt text]
-(image-1.png)
+    ![Alt text](image-1.png)
 
 1. GitHubから下図のようなメールが届きます。GitHubを開きます。
-![Alt text](image-2.png)
+    ![Alt text](image-2.png)
 
 1. GitHubのプロファイルを適宜編集します。
     ![Alt text](image-3.png)
