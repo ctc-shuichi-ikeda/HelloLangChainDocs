@@ -50,7 +50,12 @@
     ![Alt text](image-16.png)
 
 1. VSCodeでコミットします。
+
     ![Alt text](image-12.png)
 
 1. VSCodeで変更を同期します。
+
     ![Alt text](image-13.png)
+
+1. GitHubのリポジトリにソースコードが公開されていることを確認します。
+    ![Alt text](image-17.png)
