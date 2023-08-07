@@ -24,6 +24,8 @@ LangChainはPythonライブラリと提供されています。公開情報の�
 
 1. GitHubの操作手順は[こちら](GIT/GIT-README.md)です。
 
+1. Azure Open AIの申込手順は[こちら](AzureOpenAI/AzureOpenAI-README.md)です。
+
 ## 参考
 Open AI Quickstart:
 https://platform.openai.com/docs/quickstart
