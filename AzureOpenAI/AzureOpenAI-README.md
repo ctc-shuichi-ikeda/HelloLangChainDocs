@@ -17,9 +17,6 @@
 1. Request Access to Azure OpenAI Serviceにアクセスします。
     ![Alt text](image-5.png)
 
-1. Request Access to Azure OpenAI Serviceにアクセスします。
-    ![Alt text](image-5.png)
-
 1. Your First Name、Your Last Name、How many Azure Subscription ID's would you like to have access to this service?を入力します。
     ![Alt text](image-7.png)
 
@@ -35,11 +32,12 @@
 1. 電子メール、会社名、会社住所等を入力します。
 
 1. 下記の質問に回答します。
-![Alt text](image-11.png)
-![Alt text](image-12.png)
-![Alt text](image-13.png)
-![Alt text](image-14.png)
+    ![Alt text](image-11.png)
+    ![Alt text](image-12.png)
+    ![Alt text](image-13.png)
+    ![Alt text](image-14.png)
 
-1. 以上となります。
-![Alt text](image-15.png)
+1. 以下の画面が表示されたら終了です。
+    ![Alt text](image-15.png)
+
 以上
