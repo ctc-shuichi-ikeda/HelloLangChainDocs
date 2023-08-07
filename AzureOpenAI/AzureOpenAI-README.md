@@ -20,12 +20,6 @@
 1. Your First Name、Your Last Name、How many Azure Subscription ID's would you like to have access to this service?を入力します。
     ![Alt text](image-7.png)
 
-1. Azure Subscription IDを確認します。
-    ![Alt text](image-6.png)
-
-1. Azure Subscription IDを確認します。
-    ![Alt text](image-6.png)
-
 1. Azure Subscription IDを入力します。
     ![Alt text](image-9.png)
 
