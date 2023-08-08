@@ -52,4 +52,27 @@
 1. Azure Open AIが利用可能になります。
     ![Alt text](image-22.png)
 
+### Lang Chainへの組み込み
+1. 下の画面によりキーを確認できます。
+    ![Alt text](image-23.png)
+
+1. 下記によりLangChainに設定ができます。
+
+    ```
+    # Set this to `azure`
+    export OPENAI_API_TYPE=azure
+    # The API version you want to use: set this to `2023-05-15` for the released version.
+    export OPENAI_API_VERSION=2023-05-15
+    # The base URL for your Azure OpenAI resource.  You can find this in the Azure portal under your Azure OpenAI resource.
+    export OPENAI_API_BASE=https://ctcopenaidemo1.openai.azure.com/
+    # The API key for your Azure OpenAI resource.  You can find this in the Azure portal under your Azure OpenAI resource.
+    export OPENAI_API_KEY=XXXXXXXXXXXXXX
+    ```
+
+    【参考】
+    https://python.langchain.com/docs/integrations/llms/azure_openai_example
+
+1. Azure Portalから課金情報も見えるようになります。
+    ![Alt text](image-24.png)
+
 以上
