@@ -31,7 +31,25 @@
     ![Alt text](image-13.png)
     ![Alt text](image-14.png)
 
-1. 以下の画面が表示されたら終了です。
+1. 以下の画面が表示されたら申請完了です。
     ![Alt text](image-15.png)
+
+1. 翌日、下記のメールが届きます。
+    ![Alt text](image-16.png)
+
+1. 価格レベルで、Standard SOが選択できます。
+    ![Alt text](image-19.png)
+
+1. ネットワークは、「インターネットを含むすべてのネットワークのリソースにアクセスできます。」を選択します。
+    ![Alt text](image-18.png)
+
+1. 下図の画面で「作成」ボタンを押下します。
+    ![Alt text](image-20.png)
+
+1. 下図の画面で「デプロイが完了しました」と表示されます。
+    ![Alt text](image-21.png)
+
+1. Azure Open AIが利用可能になります。
+    ![Alt text](image-22.png)
 
 以上
