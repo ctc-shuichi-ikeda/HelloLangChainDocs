@@ -72,6 +72,18 @@
     【参考】
     https://python.langchain.com/docs/integrations/llms/azure_openai_example
 
+1. Azure OpenAI Studioに移動します。
+    ![Alt text](image-25.png)
+
+1. 管理の「デプロイ」で「新しいデプロイの作成」をクリックします。
+    ![Alt text](image-27.png)
+
+1. モデルを選択し、デプロイ名を入力し、「作成」ボタンを押下します。
+    ![Alt text](image-28.png)
+
+1. モデルが作成されます。
+    ![Alt text](image-29.png)
+
 1. Azure Portalから課金情報も見えるようになります。
     ![Alt text](image-24.png)
 
