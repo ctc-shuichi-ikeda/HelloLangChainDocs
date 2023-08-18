@@ -84,7 +84,23 @@
 1. モデルが作成されます。
     ![Alt text](image-29.png)
 
+### Lang ChainからのAzure Open AIの実行
+1. 下記のPythonプログラムを作成します。
+```
+from langchain.llms import OpenAI
+from langchain.chat_models import ChatOpenAI
+from langchain.schema import (
+    HumanMessage,
+)
+chat = ChatOpenAI(model_name='gpt-35-turbo', model_kwargs={"deployment_id":"ctcopenaidemo1"})
+print(chat([HumanMessage(content="お名前を教えてください")]).content)
+```
+
+1. F5キーを押下して実行します。
+    ![Alt text](image-30.png)
+
+### Azure Open AIの課金情報の確認
 1. Azure Portalから課金情報も見えるようになります。
-    ![Alt text](image-24.png)
+    ![Alt text](image-31.png)
 
 以上
